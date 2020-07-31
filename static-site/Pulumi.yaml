@@ -1,0 +1,3 @@
+name: static-site
+runtime: nodejs
+description: static website using api gateway and acm
