@@ -1,0 +1,13 @@
+{
+    "name": "image-resize",
+    "devDependencies": {
+        "@types/node": "^10.0.0",
+        "@types/sharp": "^0.25.1"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^2.0.0",
+        "@pulumi/awsx": "^0.20.0",
+        "@pulumi/pulumi": "^2.0.0",
+        "sharp": "^0.25.4"
+    }
+}
