@@ -75,10 +75,21 @@ Resources:
 * 生成前端页面：`npx degit sveltejs/template app`
 * 拷贝文件
 
+---
+
+## Demo 2: 用 API gateway 做静态网站，并提供 domain
+
+* route 53
+* aws certificate
+* api gateway
 
 ---
 
 ## Demo 2: image-resize
+
+* 创建 s3
+* s3 onObjectCreated 事件
+* `aws s3 cp ~/Downloads/luiz.jpg s3://(pulumi stack output bucketName)`
 
 ---
 
