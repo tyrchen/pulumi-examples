@@ -74,23 +74,6 @@
     read-package-tree "^5.2.1"
     resolve "^1.7.1"
 
-"@pulumi/awsx@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/awsx/-/awsx-0.20.0.tgz#22f2e26d82f47b4d843976ede4ea303b69ea186e"
-  integrity sha512-ZYe3aH4hsxWPbjh9fgvZg3iExNDdEBBWXC1tpfuZgaU4+oxKixo9vZ74cb5N9DUH7AKf4H4ZTRApF32WsDa5xw==
-  dependencies:
-    "@pulumi/docker" "^1.0.0 || ^2.0.0"
-    "@types/aws-lambda" "^8.10.23"
-    mime "^2.0.0"
-
-"@pulumi/docker@^1.0.0 || ^2.0.0":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-2.2.3.tgz#5d3ecad832b43e3ab8c0ee782127c918412f30f4"
-  integrity sha512-dhrKyN3HLJk1nXjuy08edwYV44t+s+b9RzdTVetHaCd5xYflMVKzdB0L5JphAO0bPgWhQtHzzFvVy3avCl9kDQ==
-  dependencies:
-    "@pulumi/pulumi" "^2.0.0"
-    semver "^5.4.0"
-
 "@pulumi/pulumi@^2.0.0":
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-2.7.1.tgz#7a83edb90841a131bf5e78d2ecea70e865eb8cb6"
@@ -114,11 +97,6 @@
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@pulumi/query/-/query-0.3.0.tgz#f496608e86a18c3dd31b6c533408e2441c29071d"
   integrity sha512-xfo+yLRM2zVjVEA4p23IjQWzyWl1ZhWOGobsBqRpIarzLvwNH/RAGaoehdxlhx4X92302DrpdIFgTICMN4P38w==
-
-"@types/aws-lambda@^8.10.23":
-  version "8.10.59"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.59.tgz#64f602aef1cac9b21a74aad6705bf350c4a5173a"
-  integrity sha512-X/JclTKqHvo3nMTkHzClHhRz0yxn/VAr7J7LO6jBqaksZlhcDAWuU4oT1Yrt3E9MvX5jyyVIZtrwAI7oPXzXIg==
 
 "@types/long@^4.0.1":
   version "4.0.1"
@@ -206,9 +184,9 @@ base64-js@^1.0.2:
   integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
 
 bl@^4.0.1:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-4.0.2.tgz#52b71e9088515d0606d9dd9cc7aa48dc1f98e73a"
-  integrity sha512-j4OH8f6Qg2bGuWfRiltT2HYGx0e1QcBTrK9KAHNMwMZdQnDZFk0ZSYIpADjYCB3U12nicC5tVJwSIhwOWjb4RQ==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-4.0.3.tgz#12d6287adc29080e22a705e5764b2a9522cdc489"
+  integrity sha512-fs4G6/Hu4/EE+F75J8DuN/0IpQqNjAdC7aEQv7Qt8MHGUH7Ckv2MwTEEeN9QehD0pfIDkMI1bkHYkKy7xHyKIg==
   dependencies:
     buffer "^5.5.0"
     inherits "^2.0.4"
@@ -902,7 +880,7 @@ sax@>=0.6.0:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-"semver@2 || 3 || 4 || 5", semver@^5.4.0, semver@^5.4.1:
+"semver@2 || 3 || 4 || 5", semver@^5.4.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
@@ -971,11 +949,6 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
-
-smartcrop@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/smartcrop/-/smartcrop-2.0.3.tgz#067aa8af6ebe0954e818f4cdce28a3f87579873e"
-  integrity sha512-EXkHPLf24H6KrYwCnUY+Y9ll+OPmFjmGc7wxiTfuUXt+WBXGTYR3qN5F3Df1Pk0TF/3rHCtOmPLQrvQ+QQOBWQ==
 
 source-map-support@^0.4.16:
   version "0.4.18"
