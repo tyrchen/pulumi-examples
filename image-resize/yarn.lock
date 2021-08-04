@@ -74,23 +74,6 @@
     read-package-tree "^5.2.1"
     resolve "^1.7.1"
 
-"@pulumi/awsx@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/awsx/-/awsx-0.20.0.tgz#22f2e26d82f47b4d843976ede4ea303b69ea186e"
-  integrity sha512-ZYe3aH4hsxWPbjh9fgvZg3iExNDdEBBWXC1tpfuZgaU4+oxKixo9vZ74cb5N9DUH7AKf4H4ZTRApF32WsDa5xw==
-  dependencies:
-    "@pulumi/docker" "^1.0.0 || ^2.0.0"
-    "@types/aws-lambda" "^8.10.23"
-    mime "^2.0.0"
-
-"@pulumi/docker@^1.0.0 || ^2.0.0":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-2.2.3.tgz#5d3ecad832b43e3ab8c0ee782127c918412f30f4"
-  integrity sha512-dhrKyN3HLJk1nXjuy08edwYV44t+s+b9RzdTVetHaCd5xYflMVKzdB0L5JphAO0bPgWhQtHzzFvVy3avCl9kDQ==
-  dependencies:
-    "@pulumi/pulumi" "^2.0.0"
-    semver "^5.4.0"
-
 "@pulumi/pulumi@^2.0.0":
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-2.7.1.tgz#7a83edb90841a131bf5e78d2ecea70e865eb8cb6"
@@ -114,11 +97,6 @@
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@pulumi/query/-/query-0.3.0.tgz#f496608e86a18c3dd31b6c533408e2441c29071d"
   integrity sha512-xfo+yLRM2zVjVEA4p23IjQWzyWl1ZhWOGobsBqRpIarzLvwNH/RAGaoehdxlhx4X92302DrpdIFgTICMN4P38w==
-
-"@types/aws-lambda@^8.10.23":
-  version "8.10.59"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.59.tgz#64f602aef1cac9b21a74aad6705bf350c4a5173a"
-  integrity sha512-X/JclTKqHvo3nMTkHzClHhRz0yxn/VAr7J7LO6jBqaksZlhcDAWuU4oT1Yrt3E9MvX5jyyVIZtrwAI7oPXzXIg==
 
 "@types/long@^4.0.1":
   version "4.0.1"
@@ -617,10 +595,10 @@ minipass@^3.0.0:
   dependencies:
     yallist "^4.0.0"
 
-minizlib@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.0.tgz#fd52c645301ef09a63a2c209697c294c6ce02cf3"
-  integrity sha512-EzTZN/fjSvifSX0SlqUERCN39o6T40AMarPbv0MrarSFtIITCBh7bi+dU8nxGFHuqs9jdIAeoYoKuQAAASsPPA==
+minizlib@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
+  integrity sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==
   dependencies:
     minipass "^3.0.0"
     yallist "^4.0.0"
@@ -902,7 +880,7 @@ sax@>=0.6.0:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-"semver@2 || 3 || 4 || 5", semver@^5.4.0, semver@^5.4.1:
+"semver@2 || 3 || 4 || 5", semver@^5.4.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
@@ -971,11 +949,6 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
-
-smartcrop@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/smartcrop/-/smartcrop-2.0.3.tgz#067aa8af6ebe0954e818f4cdce28a3f87579873e"
-  integrity sha512-EXkHPLf24H6KrYwCnUY+Y9ll+OPmFjmGc7wxiTfuUXt+WBXGTYR3qN5F3Df1Pk0TF/3rHCtOmPLQrvQ+QQOBWQ==
 
 source-map-support@^0.4.16:
   version "0.4.18"
@@ -1116,14 +1089,14 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 tar@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.0.2.tgz#5df17813468a6264ff14f766886c622b84ae2f39"
-  integrity sha512-Glo3jkRtPcvpDlAs/0+hozav78yoXKFr+c4wgw62NNMO3oo4AaJdCo21Uu7lcwr55h39W2XD1LMERc64wtbItg==
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.4.tgz#9f0722b772a5e00dba7d52e1923b37a7ec3799b3"
+  integrity sha512-kcPWrO8S5ABjuZ/v1xQHP8xCEvj1dQ1d9iAb6Qs4jLYzaAIYWwST2IQpz7Ud8VNYRI+fGhFjrnzRKmRggKWg3g==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
     minipass "^3.0.0"
-    minizlib "^2.1.0"
+    minizlib "^2.1.1"
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
